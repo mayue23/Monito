@@ -31,6 +31,7 @@ help you to remember what you have done in the past */
     font-weight: 200;
 }
 :root {
+    --white: #FFFF;
     --mon-yellow: #FCEED5;
     --blue: #003459;
     --dark-blue: #002A48;
@@ -93,6 +94,7 @@ li {
 /***** NAVBAR *****/
 .navbar{
     display: flex;
+    background-color: var(--mon-yellow);
 }
 .navbar__list{
     /* display: inline; */
@@ -113,24 +115,25 @@ li {
     margin-right: 2.5rem;
 }
 .navbar__searchbar{
-    background-color: red;
+    background-color: var(--white);
     color: var(--grey);
     font: var(--body-regular-light);
     /* padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 80px;
     padding-left: 10px; */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20%;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0.8rem;
     display: flex;
     border-radius: 23px;
 }
 #navbar__searchbar-icon{
     width: 25px;
     margin-left: 0.5rem;
+    filter: contrast(0%);
 }
-span{
+#navbar__searchbar-text{
     padding-top: 7px;
     padding-bottom: 10px;
     padding-right: 80px;
