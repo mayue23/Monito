@@ -1,0 +1,138 @@
+/* Remember to use comments to section your styles. Comments provide a great way to be organized and
+help you to remember what you have done in the past */
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Extrabold.otf");
+    font-weight:800 ;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Bold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Semibold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Medium.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Regular.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Light.otf");
+    font-weight: 200;
+}
+:root {
+    --mon-yellow: #FCEED5;
+    --blue: #003459;
+    --dark-blue: #002A48;
+    --black: #00171F;
+    --grey: #667479;
+    --body-regular-color: #242B33;
+
+    --body-medium: 500 1rem/1.5rem "Gilroy";
+    --body-medium-bold: 700 1rem/1.5rem "Gilroy";
+    --body-regular-light: 200 1rem/1.5rem "Gilroy";
+
+    --h1-extra-bold: 800 3.75rem/4.25rem "Gilroy";
+    --h2-bold: 700 2.85rem "Gilroy";
+    --h3-bold: 600 1.5rem/2.5rem "Gilroy";    
+}
+
+/***** BASE STYLES *****/
+/* Base styles mean: general rules for your website to have correct style */
+
+/* 1. 
+    this provides to every element a margin and a padding of zero so that we can control our elements more 
+*/
+* {
+    margin: 0;
+    padding: 0;
+
+    /* This property is used to tell the browser that for any specific widths I provide in my design,
+    any padding or border should also be accounted for the final width.
+    Example. (WITHOUT box-sizing: border-box: --card: width: 400px, padding, 20px, border 2px = width 444px 
+    Example. (WITH box-sizing: border-box: --card: width: 400px, padding, 20px, border 2px = width 400px */
+    box-sizing: border-box;
+}
+
+body {
+    /* Rememeber to set your base styles here:
+        - color
+        - base font 
+        - etc.
+        */
+    font-family: 'Giliory' , sans-serif;
+    color: var(--dark-blue);
+}
+
+button {
+    /* any style particular styles you can think of that might apply to all buttons later on? */
+    border-radius: 23px;
+    border-color: var(--dark-blue);
+    color: var(--dark-blue);
+    font-size: large;
+    padding: 15px 30px;
+}
+
+/* This is a good example for a "base style".
+     99% of the time, we do not want the bullet points that come by default with <li> elements
+*/
+li {
+    list-style-type: none;
+}
+
+/***** NAVBAR *****/
+.navbar{
+    display: flex;
+}
+.navbar__list{
+    /* display: inline; */
+    display: flex;
+    gap: 3.5rem;
+}
+.navbar__list-item{
+    /* display: inline-block; */
+    color: var(--body-regular-color);
+
+    font: var(--body-medium);
+    margin-top: 1.2rem;
+}
+.navbar__logo-container{
+    /* display: inline-block; */
+    padding: 10px 15px;
+    margin-top: 0.3rem;
+    margin-right: 2.5rem;
+}
+.navbar__searchbar{
+    background-color: red;
+    color: var(--grey);
+    font: var(--body-regular-light);
+    /* padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    display: flex;
+    border-radius: 23px;
+}
+#navbar__searchbar-icon{
+    width: 25px;
+    margin-left: 0.5rem;
+}
+span{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 10px;
+}
