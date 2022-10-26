@@ -94,6 +94,7 @@ li {
 /***** NAVBAR *****/
 .navbar{
     display: flex;
+    justify-content: center;
     background-color: var(--mon-yellow);
 }
 .navbar__list{
@@ -139,3 +140,15 @@ li {
     padding-right: 80px;
     padding-left: 10px;
 }
+.navbar__register{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin-left: 1.5rem;
+}
+#cnm{
+    font-size: medium;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0.8rem;
+}
+
