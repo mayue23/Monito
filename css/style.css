@@ -79,9 +79,8 @@ button {
     /* any style particular styles you can think of that might apply to all buttons later on? */
     border-radius: 23px;
     border-color: var(--dark-blue);
-    color: var(--dark-blue);
-    font-size: large;
-    padding: 15px 30px;
+    font: var(--body-regular-light);
+    
 }
 
 /* This is a good example for a "base style".
@@ -141,14 +140,20 @@ li {
     padding-left: 10px;
 }
 .navbar__register{
-    background-color: var(--dark-blue);
-    color: var(--white);
     margin-left: 1.5rem;
-}
-#cnm{
-    font-size: medium;
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
-    margin-left: 0.8rem;
+    display: flex;
+    border-radius: 23px;
+}
+.navbar__register-button{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+#cnm{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
