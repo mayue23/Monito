@@ -45,7 +45,7 @@ help you to remember what you have done in the past */
 
     --h1-extra-bold: 800 3.75rem/4.25rem "Gilroy";
     --h2-bold: 700 2.85rem "Gilroy";
-    --h3-bold: 600 1.5rem/2.5rem "Gilroy";    
+    --h3-bold: 600 1.5rem/2.5rem "Gilroy";
 }
 
 /***** BASE STYLES *****/
@@ -95,9 +95,13 @@ li {
 /***** NAVBAR *****/
 .navbar{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     background-color: var(--mon-yellow);
+
+    /*用着两个让他们同样靠边*/
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
 }
 .navbar__list{
     /* display: inline; */
@@ -107,9 +111,10 @@ li {
 }
 .navbar__list-item{
     /* display: inline-block; */
-    color: var(--body-regular-color);
+    color: var(--blue);
 
     font: var(--body-medium);
+    font-weight: 600;
     /*margin-top: 1.2rem;*/
 }
 .navbar__logo-container{
@@ -128,7 +133,7 @@ li {
     padding-left: 10px; */
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
-    margin-left: 0.8rem;
+    margin-left: 2rem;
     display: flex;
     border-radius: 23px;
 }
@@ -267,3 +272,18 @@ li {
 }
 
 
+
+.pets{
+    padding: 3.125rem 6.25rem;
+}
+.pets__header{
+    display: flex;
+    justify-content: space-between;
+}
+.pets__title{
+    font: var(--body-regular-light);
+}
+.pets__more-buttons{
+    display: flex;
+    align-items: center;
+}
