@@ -89,7 +89,9 @@ button {
 li {
     list-style-type: none;
 }
-
+.welcomepage{
+    background-color: var(--mon-yellow);
+}
 /***** NAVBAR *****/
 .navbar{
     display: flex;
@@ -134,9 +136,10 @@ li {
     width: 25px;
     margin-left: 0.5rem;
     filter: contrast(0%);
+    padding-top: 7px;
 }
 #navbar__searchbar-text{
-    padding-top: 7px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 80px;
     padding-left: 10px;
@@ -147,6 +150,8 @@ li {
     margin-bottom: 1.2rem;
     display: flex;
     border-radius: 23px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .navbar__register-button{
     background-color: var(--blue);
@@ -162,5 +167,16 @@ li {
 .navbar__drop-down-sign{
     margin-top: 5px;
 }
-
+{
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+}
+.headpage__title{
+    font: var(--h1-extra-bold);
+}
+.headpage__title-sub{
+    font: var(--h2-bold);
+}
 
