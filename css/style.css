@@ -167,6 +167,7 @@ li {
 .navbar__drop-down-sign{
     margin-top: 5px;
 }
+/***** HEADPAGE *****/
 .headpage{
     display: flex;
     justify-content: center;
@@ -212,6 +213,57 @@ li {
     margin-left: 5px;
     margin-top: 5px;
 }
+/***** ADVERTISEMENT *****/
+.advertisement{
+    display: flex;
+    justify-content: center;
+}
+.advertisement__left{
+    background-color: var(--dark-blue);
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    min-width: 33%;
+}
+.advertisement__right{
+    background-color: var(--mon-yellow);
+    text-align: right;
+    padding: 3rem 5rem;
+    min-width: 35%;
+}
+.advertisement__right-title{
+    font: var(--h1-extra-bold);
+}
+.advertisement__right-sub{
+    font: var(--h2-bold);
+    margin-bottom: 1.5rem;
+}
+.advertisement__button{
+    font: var(--h3-bold);
+    margin-top: 3rem;
+    padding: 10px;
 
+}
+.advertisement__right-button{
+    display: flex;
+    justify-content: end;
+    
+
+}
+.advertisement__left-button1{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advertisement__left-button2{
+    margin-left: 1.5rem;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+#advertisement__left-buttonPic{
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
 
