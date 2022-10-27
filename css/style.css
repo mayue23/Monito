@@ -149,14 +149,18 @@ li {
     border-radius: 23px;
 }
 .navbar__register-button{
-    background-color: var(--dark-blue);
+    background-color: var(--blue);
+    padding: 10px 20px;
     color: var(--white);
 }
-#cnm{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+.navbar__language-options{
+    margin-left: 1.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
-.navbar__language-options
+.navbar__drop-down-sign{
+    margin-top: 5px;
+}
+
 
