@@ -167,16 +167,51 @@ li {
 .navbar__drop-down-sign{
     margin-top: 5px;
 }
-{
-    margin-left: 1.5rem;
-    margin-top: 0.8rem;
-    margin-bottom: 1.2rem;
+.headpage{
     display: flex;
+    justify-content: center;
 }
 .headpage__title{
     font: var(--h1-extra-bold);
 }
 .headpage__title-sub{
     font: var(--h2-bold);
+    margin-bottom: 1.5rem;
 }
+.headpage__left{
+    margin-top: 3rem;
+    max-width: 28%;
+    margin-right: 20rem;
+    line-height: 2rem;
+}
+.headpage_-paragraph{
+    font: var(--body-medium-bold);
+}
+.headpage__button{
+    font: var(--h3-bold);
+    margin-top: 3rem;
+    padding: 10px;
+}
+.headpage__1{
+    display: flex;
+
+}
+.headpage__left-button1{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headpage__left-button2{
+    margin-left: 1.5rem;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+#headpage__left-buttonPic{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
 
