@@ -223,6 +223,7 @@ li {
 
 .pets{
     padding: 3.125rem 6.25rem;
+    background-color: var(--white2);
 }
 .pets__header{
     display: flex;
@@ -234,4 +235,9 @@ li {
 .pets__more-buttons{
     display: flex;
     align-items: center;
+    padding: 1.25rem;
+    background-color: var(--white);
+}
+.pets__card{
+
 }
