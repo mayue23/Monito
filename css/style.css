@@ -45,7 +45,7 @@ help you to remember what you have done in the past */
 
     --h1-extra-bold: 800 3.75rem/4.25rem "Gilroy";
     --h2-bold: 700 2.85rem "Gilroy";
-    --h3-bold: 600 1.5rem/2.5rem "Gilroy";    
+    --h3-bold: 600 1.5rem/2.5rem "Gilroy";
 }
 
 /***** BASE STYLES *****/
@@ -95,9 +95,13 @@ li {
 /***** NAVBAR *****/
 .navbar{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     background-color: var(--mon-yellow);
+
+    /*用着两个让他们同样靠边*/
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
 }
 .navbar__list{
     /* display: inline; */
@@ -107,9 +111,10 @@ li {
 }
 .navbar__list-item{
     /* display: inline-block; */
-    color: var(--body-regular-color);
+    color: var(--blue);
 
     font: var(--body-medium);
+    font-weight: 600;
     /*margin-top: 1.2rem;*/
 }
 .navbar__logo-container{
@@ -128,7 +133,7 @@ li {
     padding-left: 10px; */
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
-    margin-left: 0.8rem;
+    margin-left: 2rem;
     display: flex;
     border-radius: 23px;
 }
@@ -167,9 +172,11 @@ li {
 .navbar__drop-down-sign{
     margin-top: 5px;
 }
+/***** HEADPAGE *****/
 .headpage{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
 }
 .headpage__title{
     font: var(--h1-extra-bold);
@@ -180,7 +187,7 @@ li {
 }
 .headpage__left{
     margin-top: 3rem;
-    max-width: 28%;
+    max-width: 35%;
     margin-right: 20rem;
     line-height: 2rem;
 }
@@ -212,6 +219,42 @@ li {
     margin-left: 5px;
     margin-top: 5px;
 }
+/***** ADVERTISEMENT *****/
+.advertisement{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
+}
+.advertisement__left{
+    background-color: var(--dark-blue);
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    min-width: 50%;
+}
+.advertisement__left-picture{
+    padding-bottom: 3rem;
+}
+.advertisement__right{
+    background-color: var(--mon-yellow);
+    text-align: right;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    min-width: 50%;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.advertisement__right-title{
+    font: var(--h1-extra-bold);
+}
+.advertisement__right-sub{
+    font: var(--h2-bold);
+    margin-bottom: 1.5rem;
+}
+.advertisement__button{
+    font: var(--h3-bold);
+    margin-top: 3rem;
+    padding: 10px;
 
 .footer{
     background-color: var(--mon-yellow);
@@ -276,5 +319,80 @@ li {
     display: flex;
     gap: 40px;
 }
+}
+.advertisement__right-button{
+    display: flex;
+    justify-content: end;
 
 
+}
+.advertisement__left-button1{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advertisement__left-button2{
+    margin-left: 1.5rem;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+#advertisement__left-buttonPic{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/***** PETS *****/
+.pets{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
+    background-color: var(--white);
+}
+.pets__header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.125rem;
+}
+.pets__title{
+    font: var(--body-regular-light);
+}
+.pets__more-buttons{
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 2.25rem;
+    background-color: var(--white);
+    border-radius: 3.125rem;
+    border: 0.125rem solid var(--dark-blue);
+    color: var(--dark-blue);
+}
+.pets__card-frame{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+    justify-content: center;
+}
+.pets__card{
+    /*background-color: pink;*/
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.625rem 1.625rem 0.625rem;
+    line-height: 1.875rem;
+    box-shadow:0.125rem 0.125rem 0.625rem var(--grey);
+}
+.pets__img{
+    width: 20rem;
+}
+.pets__gender-and-age{
+    color: var(--grey);
+}
+/***** SPONSER *****/
+.sponer{
+    display: flex;
+    flex-direction: row;
+}
+.sponer__paragraph-sub{
+    font: var(--h3-bold);
+}
