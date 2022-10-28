@@ -306,7 +306,7 @@ li {
     border: 2px solid var(--dark-blue);
     color: var(--dark-blue);
 }
-.pets__card-box{
+.pets__card-frame{
     display: flex;
     flex-wrap: wrap;
     gap: 1.875rem;
