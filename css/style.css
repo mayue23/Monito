@@ -283,7 +283,11 @@ li {
 
 /***** PETS *****/
 .pets{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 3.125rem 6.25rem;
+    background-color: var(--white);
 }
 .pets__header{
     display: flex;
@@ -296,6 +300,30 @@ li {
 .pets__more-buttons{
     display: flex;
     align-items: center;
+    padding: 1.25rem 2.25rem;
+    background-color: var(--white);
+    border-radius: 50px;
+    border: 2px solid var(--dark-blue);
+    color: var(--dark-blue);
+}
+.pets__card-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+    justify-content: center;
+}
+.pets__card{
+    /*background-color: pink;*/
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.625rem 1.625rem 0.625rem;
+    line-height: 30px;
+    box-shadow:2px 2px 10px var(--grey);
+}
+.pets__img{
+    width: 320px;
+}
+.pets__gender-and-age{
+    color: var(--grey);
 }
 /***** SPONSER *****/
 .sponer{
