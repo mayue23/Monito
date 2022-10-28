@@ -175,7 +175,8 @@ li {
 /***** HEADPAGE *****/
 .headpage{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
 }
 .headpage__title{
     font: var(--h1-extra-bold);
@@ -186,7 +187,7 @@ li {
 }
 .headpage__left{
     margin-top: 3rem;
-    max-width: 28%;
+    max-width: 35%;
     margin-right: 20rem;
     line-height: 2rem;
 }
@@ -221,19 +222,27 @@ li {
 /***** ADVERTISEMENT *****/
 .advertisement{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
 }
 .advertisement__left{
     background-color: var(--dark-blue);
     border-top-left-radius: 23px;
     border-bottom-left-radius: 23px;
-    min-width: 33%;
+    min-width: 50%;
+}
+.advertisement__left-picture{
+    padding-bottom: 3rem;
 }
 .advertisement__right{
     background-color: var(--mon-yellow);
     text-align: right;
-    padding: 3rem 5rem;
-    min-width: 35%;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    min-width: 50%;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
 }
 .advertisement__right-title{
     font: var(--h1-extra-bold);
@@ -272,7 +281,7 @@ li {
 }
 
 
-
+/***** PETS *****/
 .pets{
     padding: 3.125rem 6.25rem;
 }
@@ -286,4 +295,12 @@ li {
 .pets__more-buttons{
     display: flex;
     align-items: center;
+}
+/***** SPONSER *****/
+.sponer{
+    display: flex;
+    flex-direction: row;
+}
+.sponer__paragraph-sub{
+    font: var(--h3-bold);
 }
