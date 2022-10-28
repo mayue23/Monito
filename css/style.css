@@ -302,8 +302,8 @@ li {
     align-items: center;
     padding: 1.25rem 2.25rem;
     background-color: var(--white);
-    border-radius: 50px;
-    border: 2px solid var(--dark-blue);
+    border-radius: 3.125rem;
+    border: 0.125rem solid var(--dark-blue);
     color: var(--dark-blue);
 }
 .pets__card-frame{
@@ -316,11 +316,11 @@ li {
     /*background-color: pink;*/
     border-radius: 0.625rem;
     padding: 0.625rem 0.625rem 1.625rem 0.625rem;
-    line-height: 30px;
-    box-shadow:2px 2px 10px var(--grey);
+    line-height: 1.875rem;
+    box-shadow:0.125rem 0.125rem 0.625rem var(--grey);
 }
 .pets__img{
-    width: 320px;
+    width: 20rem;
 }
 .pets__gender-and-age{
     color: var(--grey);
