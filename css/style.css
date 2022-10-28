@@ -288,6 +288,7 @@ li {
 .pets__header{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 3.125rem;
 }
 .pets__title{
     font: var(--body-regular-light);
