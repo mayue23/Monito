@@ -289,15 +289,15 @@ li {
     padding: 3.125rem 6.25rem;
     background-color: var(--white);
 }
-.pets__header{
+.pets__header,.knowledge__header{
     display: flex;
     justify-content: space-between;
     padding-bottom: 3.125rem;
 }
-.pets__title{
+.pets__title,.knowledge__title{
     font: var(--body-regular-light);
 }
-.pets__more-buttons{
+.pets__more-buttons,.knowledge__more-buttons{
     display: flex;
     align-items: center;
     padding: 1.25rem 2.25rem;
@@ -306,7 +306,7 @@ li {
     border: 0.125rem solid var(--dark-blue);
     color: var(--dark-blue);
 }
-.pets__card-frame{
+.pets__card-frame,.knowledge__card-frame{
     display: flex;
     flex-wrap: wrap;
     gap: 1.875rem;
@@ -332,6 +332,43 @@ li {
 }
 .sponer__paragraph-sub{
     font: var(--h3-bold);
+}
+
+/***** KNOWLEDGE *****/
+
+.knowledge{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
+    background-color: var(--white);
+}
+.knowledge__card{
+    /*background-color: pink;*/
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.625rem 1.625rem 0.625rem;
+    line-height: 1.875rem;
+    box-shadow:0.125rem 0.125rem 0.625rem var(--grey);
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: flex-start;
+}
+.knowledge__img{
+    border-radius: 10px;
+    width: 100%;
+}
+.knowledge__gender-and-age{
+    font: var(--body-regular-light);
+}
+.knowledge__button{
+    background-color:#01A6E6;
+    border: none;
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    font: var(--body-medium);
 }
 
 /***** FOOTER *****/
