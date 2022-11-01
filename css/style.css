@@ -326,12 +326,39 @@ li {
     color: var(--grey);
 }
 /***** SPONSER *****/
-.sponer{
+.sponser{
+    padding: 3.125rem 6.25rem;
+    
+}
+.sponser__navibar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponser__navibar-text{
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
 }
-.sponer__paragraph-sub{
+.sponser__paragraph{
+    color: var(--black);
+}
+.sponser__paragraph-sub{
     font: var(--h3-bold);
+}
+.sponser__button{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.3rem;
+    background-color: var(--white);
+}
+.sponser__list{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /***** FOOTER *****/
