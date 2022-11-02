@@ -360,6 +360,63 @@ li {
     justify-content: space-around;
     align-items: center;
 }
+/***** ADOPTION *****/
+.adoption{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem 6.25rem;
+    
+}
+.adoption__right{
+    background-color: #FEB775;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    min-width: 50%;
+}
+.adoption__right-picture{
+    padding-bottom: 3rem;
+}
+.adoption__left{
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    min-width: 50%;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    background-color: #FEB775;
+}
+.adoption__left-title{
+    font: var(--h1-extra-bold);
+}
+.adoption__left-sub{
+    font: var(--h2-bold);
+    margin-bottom: 1.5rem;
+}
+.adoption__button{
+    font: var(--h3-bold);
+    margin-top: 3rem;
+    padding: 10px;
+
+}
+.adoption__left-button{
+    display: flex;
+}
+.adoption__left-button1{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adoption__left-button2{
+    margin-left: 1.5rem;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+#adoption__left-buttonPic{
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
 /***** KNOWLEDGE *****/
 
