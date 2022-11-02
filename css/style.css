@@ -195,9 +195,7 @@ li {
     font: var(--body-medium-bold);
 }
 .headpage__button{
-    font: var(--h3-bold);
     margin-top: 3rem;
-    padding: 10px;
 }
 .headpage__1{
     display: flex;
@@ -208,12 +206,13 @@ li {
     background-color: var(--white);
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 0.5rem 1.7rem;
 }
 .headpage__left-button2{
     margin-left: 1.5rem;
     color: var(--white);
     background-color: var(--dark-blue);
+    padding: 0.3rem 1.7rem;
 }
 #headpage__left-buttonPic{
     margin-left: 5px;
@@ -252,7 +251,6 @@ li {
     margin-bottom: 1.5rem;
 }
 .advertisement__button{
-    font: var(--h3-bold);
     margin-top: 3rem;
     padding: 10px;
 
@@ -265,15 +263,16 @@ li {
 }
 .advertisement__left-button1{
     color: var(--dark-blue);
-    background-color: var(--white);
+    background-color: var(--mon-yellow);
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 0.5rem 1.3rem;
 }
 .advertisement__left-button2{
     margin-left: 1.5rem;
     color: var(--white);
     background-color: var(--dark-blue);
+    padding: 0.5rem 1.3rem;
 }
 #advertisement__left-buttonPic{
     margin-left: 5px;
@@ -300,7 +299,7 @@ li {
 .pets__more-buttons,.knowledge__more-buttons{
     display: flex;
     align-items: center;
-    padding: 1.25rem 2.25rem;
+    padding: 0.3rem 1.7rem;
     background-color: var(--white);
     border-radius: 3.125rem;
     border: 0.125rem solid var(--dark-blue);
@@ -393,25 +392,24 @@ li {
     margin-bottom: 1.5rem;
 }
 .adoption__button{
-    font: var(--h3-bold);
     margin-top: 3rem;
-    padding: 10px;
-
 }
 .adoption__left-button{
     display: flex;
 }
-.adoption__left-button1{
-    color: var(--dark-blue);
-    background-color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .adoption__left-button2{
     margin-left: 1.5rem;
+    color: var(--dark-blue);
+    background-color: #FEB775;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.3rem;
+}
+.adoption__left-button1{
+
     color: var(--white);
     background-color: var(--dark-blue);
+    padding: 0.5rem 1.3rem;
 }
 #adoption__left-buttonPic{
     margin-left: 5px;
@@ -453,6 +451,9 @@ li {
     color: var(--white);
     padding: 0.5rem 1rem;
     font: var(--body-medium);
+}
+.knowledge__more-buttons{
+    padding: 0.2rem 1.5rem;
 }
 
 /***** FOOTER *****/
